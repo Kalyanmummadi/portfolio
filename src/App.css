@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(45deg, #1e90ff, #ff1493);
+  color: white;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.skills .skill-bar {
+  background-color: #333;
+  margin: 10px 0;
+  border-radius: 5px;
+  position: relative;
+  height: 30px;
+}
+
+.skills .skill-bar span {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  font-size: 16px;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: #1e90ff; /* Bright blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff; /* Change to white on hover */
+}
+
+h2, h3 {
+  color: #ffffff; /* White for headings */
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #1e90ff; /* Blue button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6600; /* Orange hover effect */
+}
+

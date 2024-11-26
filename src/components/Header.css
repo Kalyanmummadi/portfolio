@@ -1,0 +1,30 @@
+.header {
+    position: sticky;
+    top: 0;
+    background:linear-gradient(90deg,#000000,#130F40);
+    padding: 10px 20px;
+    z-index: 10;
+  }
+  
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header .nav-links li {
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .header .nav-links li:hover {
+    color: #1e90ff;
+  }
+  
